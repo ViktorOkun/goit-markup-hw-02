@@ -15,6 +15,7 @@
     --background-secondary: #F5F4FA;
     --background-color-hero: #2F303A;
     --color-logo: #000000;
+    --color-footer: rgba(255, 255, 255, 0.6);
 }
     
 body {
@@ -67,7 +68,7 @@ body {
 .features {
 
 }
-.features-titel {
+.features-title {
 color: var(--title-text-color);
 }
 .features-paragraph {
@@ -91,18 +92,9 @@ color: var(--title-text-color);
 /* footer */
 .footer {
     background-color: var(--background-color-hero);
-}
-
-.footer-logo,  {
     color: var(--white-color);
 }
 
-.footer-web {
-    color: var(--accent-color);
-}
-.footer-link {
-
-}
 
 
 
