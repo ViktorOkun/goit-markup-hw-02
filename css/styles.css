@@ -1,0 +1,100 @@
+/* білий колір #FFFFFF */
+/* основний колір тексту  #757575*/
+/* вторинний колір тескту  #212121 */
+/* колір логотипу #2196F3 і #000000 */
+/* синій колір #2196F3 */
+/* вториррний колфр фону #F5F4FA */
+/* фон футера #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --background-color: #F5F5F5;
+    --background-secondary: #F5F4FA;
+    --background-color-hero: #2F303A;
+    --color-logo: #000000;
+}
+    
+body {
+    background-color: var(--background-color);
+    caret-color: var(--primary-text-color);
+    font-family: Roboto;
+}
+
+.list {
+    list-style: none;
+ }
+
+
+
+/* logo */
+.logo {
+    color: var(--color-logo);
+    text-decoration: none;
+ }
+.logo-web {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+    background-color: var(--background-color-hero);
+}
+.hero-title {
+    color: var(--white-color);
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* features */
+.features {
+
+}
+.features-titel {
+color: var(--title-text-color);
+}
+.features-paragraph {
+
+}
+
+/* work */
+
+.work-title {
+    color: var(--title-text-color);
+}   
+
+/* team */
+.team {
+    background-color: var(--background-secondary);
+}
+.team-title, .team-title-list {
+    color: var(--title-text-color);
+}
+
+
+
+
+
+
+
+
+
