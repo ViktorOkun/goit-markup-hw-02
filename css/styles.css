@@ -19,15 +19,13 @@
     
 body {
     background-color: var(--background-color);
-    caret-color: var(--primary-text-color);
+    color: var(--primary-text-color);
     font-family: Roboto;
 }
 
 .list {
     list-style: none;
  }
-
-
 
 /* logo */
 .logo {
@@ -89,6 +87,23 @@ color: var(--title-text-color);
 .team-title, .team-title-list {
     color: var(--title-text-color);
 }
+
+/* footer */
+.footer {
+    background-color: var(--background-color-hero);
+}
+
+.footer-logo,  {
+    color: var(--white-color);
+}
+
+.footer-web {
+    color: var(--accent-color);
+}
+.footer-link {
+
+}
+
 
 
 
