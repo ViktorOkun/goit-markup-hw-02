@@ -17,91 +17,132 @@
     --color-logo: #000000;
     --color-footer: rgba(255, 255, 255, 0.6);
 }
-    
+
 body {
-    background-color: var(--background-color);
+    background-color: var(--white-color);
     color: var(--primary-text-color);
-    font-family: Roboto;
 }
 
-.list {
+ul {
     list-style: none;
- }
+}
 
-/* logo */
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
 .logo {
     color: var(--color-logo);
     text-decoration: none;
- }
+}
+
 .logo-web {
     color: var(--accent-color);
 }
 
-/* site-nav */
 .site-nav .link {
-    color: var(--title-text-color);
-    text-decoration: none;
+color: var(--title-text-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
 
-/* hero */
+.site-contacts .link {
+    color: var(--primary-text-color);
+}
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Hero */
 
 .hero {
     background-color: var(--background-color-hero);
 }
+
 .hero-title {
     color: var(--white-color);
 }
 
-.hero-button {
+.button-hero {
     background-color: var(--accent-color);
     color: var(--white-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 /* features */
-.features {
 
-}
 .features-title {
-color: var(--title-text-color);
-}
-.features-paragraph {
-
+    color: var(--title-text-color);
 }
 
-/* work */
+/* Work */
 
 .work-title {
     color: var(--title-text-color);
-}   
+}
 
 /* team */
+
 .team {
     background-color: var(--background-secondary);
 }
-.team-title, .team-title-list {
-    color: var(--title-text-color);
+
+.team-title {
+color: var(--title-text-color);
 }
 
 /* footer */
+
 .footer {
     background-color: var(--background-color-hero);
+}
+
+.footer-logo {
     color: var(--white-color);
 }
 
+.footer span {
+    color: var(--accent-color);
+}
 
+.footer .address {
+    color: var(--white-color);
+}
 
+.footer .contacts {
+    color: var(--color-footer)
+}
 
+/* Portfolio */
 
+/* button */
 
+.button {
+    background-color: var(--background-secondary);
+    color: var(--title-text-color);
+}
 
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
 
+/* examples of work */
 
+.examples h2 {
+    color: var(--title-text-color)
+}
 
-
+.examples p {
+    color: var(--primary-text-color)
+}
