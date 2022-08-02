@@ -23,12 +23,13 @@ body {
     color: var(--primary-text-color);
 }
 
-ul {
-    list-style: none;
+
+.link {
+text-decoration: none;
 }
 
-a {
-    text-decoration: none;
+.list {
+list-style: none;
 }
 
 /* Header */
@@ -102,7 +103,7 @@ color: var(--title-text-color);
 
 /* footer */
 
-.footer {
+ .footer {
     background-color: var(--background-color-hero);
 }
 
@@ -110,7 +111,7 @@ color: var(--title-text-color);
     color: var(--white-color);
 }
 
-.footer span {
+.footer .logo-divided {
     color: var(--accent-color);
 }
 
@@ -139,10 +140,10 @@ color: var(--title-text-color);
 
 /* examples of work */
 
-.examples h2 {
+.examples-title {
     color: var(--title-text-color)
 }
 
-.examples p {
+.examples-paragraph {
     color: var(--primary-text-color)
 }
