@@ -1,0 +1,151 @@
+/* білий колір #FFFFFF */
+/* основний колір тексту  #757575*/
+/* вторинний колір тескту  #212121 */
+/* колір логотипу #2196F3 і #000000 */
+/* синій колір #2196F3 */
+/* вториррний колфр фону #F5F4FA */
+/* фон футера #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --background-color: #F5F5F5;
+    --background-secondary: #F5F4FA;
+    --background-color-hero: #2F303A;
+    --color-logo: #000000;
+    --color-footer: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+
+
+.link {
+text-decoration: none;
+}
+
+.list {
+list-style: none;
+}
+
+/* Header */
+
+.logo {
+    color: var(--color-logo);
+    text-decoration: none;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-contacts .link {
+    color: var(--primary-text-color);
+}
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--background-color-hero);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+
+.button-hero {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* features */
+
+.features-title {
+    color: var(--title-text-color);
+}
+
+/* Work */
+
+.work-title {
+    color: var(--title-text-color);
+}
+
+/* team */
+
+.team {
+    background-color: var(--background-secondary);
+}
+
+.team-title {
+color: var(--title-text-color);
+}
+
+/* footer */
+
+ .footer {
+    background-color: var(--background-color-hero);
+}
+
+.footer-logo {
+    color: var(--white-color);
+}
+
+.footer .logo-divided {
+    color: var(--accent-color);
+}
+
+.footer .address {
+    color: var(--white-color);
+}
+
+.footer .contacts {
+    color: var(--color-footer)
+}
+
+/* Portfolio */
+
+/* button */
+
+.button {
+    background-color: var(--background-secondary);
+    color: var(--title-text-color);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* examples of work */
+
+.examples-title {
+    color: var(--title-text-color)
+}
+
+.examples-paragraph {
+    color: var(--primary-text-color)
+}
+
+/* end */
