@@ -1,11 +1,3 @@
-/* білий колір #FFFFFF */
-/* основний колір тексту  #757575*/
-/* вторинний колір тескту  #212121 */
-/* колір логотипу #2196F3 і #000000 */
-/* синій колір #2196F3 */
-/* вториррний колфр фону #F5F4FA */
-/* фон футера #2F303A */
-
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -21,15 +13,17 @@
 body {
     background-color: var(--white-color);
     color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
 }
 
 
 .link {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .list {
-list-style: none;
+    list-style: none;
 }
 
 /* Header */
@@ -37,6 +31,11 @@ list-style: none;
 .logo {
     color: var(--color-logo);
     text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -44,7 +43,11 @@ list-style: none;
 }
 
 .site-nav .link {
-color: var(--title-text-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -54,7 +57,12 @@ color: var(--title-text-color);
 
 .site-contacts .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
+    
 .site-contacts .link:hover,
 .site-contacts .link:focus {
     color: var(--accent-color);
@@ -72,23 +80,52 @@ color: var(--title-text-color);
 
 .hero-title {
     color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button-hero {
     background-color: var(--accent-color);
     color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* features */
 
 .features-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features .paragraph {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 /* Work */
 
 .work-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* team */
@@ -98,7 +135,26 @@ color: var(--title-text-color);
 }
 
 .team-title {
-color: var(--title-text-color);
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-subtitle {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -109,6 +165,11 @@ color: var(--title-text-color);
 
 .footer-logo {
     color: var(--white-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .footer .logo-divided {
@@ -117,10 +178,16 @@ color: var(--title-text-color);
 
 .footer .address {
     color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .footer .contacts {
-    color: var(--color-footer)
+    color: var(--color-footer);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 /* Portfolio */
@@ -130,6 +197,12 @@ color: var(--title-text-color);
 .button {
     background-color: var(--background-secondary);
     color: var(--title-text-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.85;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .button:hover,
@@ -141,11 +214,18 @@ color: var(--title-text-color);
 /* examples of work */
 
 .examples-title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .examples-paragraph {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
 
 /* end */
